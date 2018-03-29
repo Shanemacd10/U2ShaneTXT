@@ -1,0 +1,16 @@
+<Window x:Class="U2ShaneTXTMSG.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U2ShaneTXTMSG"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="txtInput" Text="" TextWrapping="Wrap" AcceptsReturn="True"/>
+        <Button x:Name="btnRun" Content="Translate" Click="btnRun_Click"/>
+        <Label x:Name="lblOutput">
+            <TextBlock>Translation Table<LineBreak/>CU<LineBreak/>:-)<LineBreak/>:-(<LineBreak/>;-)<LineBreak/>:-P<LineBreak/>(˜.˜)<LineBreak/>TA<LineBreak/>CCC<LineBreak/>CUZ<LineBreak/>TY<LineBreak/>YW<LineBreak/>TTYL<LineBreak/>Enter only TTYL to close program</TextBlock>
+        </Label>
+    </StackPanel>
+</Window>
